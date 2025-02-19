@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: "Oswald", serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+  </style>
+</head>
+<body>
+  <div class="h-[30%] sticky top-0  drop-shadow-md">
+    <div class="flex justify-between items-center  bg-white">
+      <img class="lg:w-[7%] pl-3 md:w-[10%] sm:w-[20%] w-[20%]" src="./image/conversa.png" alt="photo">
+      <div class="flex gap-10 justify-center items-center md:flex hidden pr-3" id="drop">
+        <a href="index.html"><p class="font-semibold text-md bg-[#87CEFA] px-3 py-1 border-none rounded heading">Home</p></a>
+        <a href="about.html"><p class="font-semibold text-md heading" id="about">About Us</p></a>
+        <a href="content.html"><p class="font-semibold text-md heading">Events</p></a>
+        <a href=".html"><p class="font-semibold text-md heading">Contact Us</p></a>
+      </div>
+      <div class="absolute z-50 md:hidden right-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="relative md:hidden cursor-pointer right-4 z-20" id="menu" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M4 18q-.425 0-.712-.288T3 17t.288-.712T4 16h16q.425 0 .713.288T21 17t-.288.713T20 18zm0-5q-.425 0-.712-.288T3 12t.288-.712T4 11h16q.425 0 .713.288T21 12t-.288.713T20 13zm0-5q-.425 0-.712-.288T3 7t.288-.712T4 6h16q.425 0 .713.288T21 7t-.288.713T20 8z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg"  id="cross" class="relative w-[30px]  right-4 hidden cursor-pointer" width="32" height="32" viewBox="0 0 24 24" ><g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><path d="M5.47 5.47a.75.75 0 0 1 1.06 0l12 12a.75.75 0 1 1-1.06 1.06l-12-12a.75.75 0 0 1 0-1.06"/><path d="M18.53 5.47a.75.75 0 0 1 0 1.06l-12 12a.75.75 0 0 1-1.06-1.06l12-12a.75.75 0 0 1 1.06 0"/></g></svg>
+      </div>
+      <div class="md:hidden">
+        <div class=" top-0 flex items-end pr-7 rounded-bl-lg rounded-tl-lg flex-col  right-0 bg-[#87CEFA] w-[40%]  h-[300px] absolute gap-5 hidden justify-center" id="drop2">
+          <a href="index.html"><p class="font-semibold text-lg md:no-underline underline  border-none md:rounded heading">Home</p></a>
+          <a href="#"><p class="font-semibold text-lg heading" id="about">About Us</p></a>
+          <a href="#"><p class="font-semibold text-lg heading">Events</p></a>
+          <a href="#"><p class="font-semibold text-lg heading">Contact Us</p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="lg:px-[80px] w-full xl:h-[100vh] h-auto px-5 firstpage" id="body">
+    <div class="xl:flex flex-row w-full items-start justify-between">
+      <div class="pt-[8%]">
+        <p class="font-bold md:text-4xl text-2xl">Welcome to</p>
+        <p class="font md:text-5xl text-3xl font-bold pt-[3%]"> Conversa Community!</p>
+        <div class="pt-[3%]">
+          <p class="font-semibold md:text-lg text-md leading-8">         
+            Conversa is a growing youth-led organization
+            that serves as a platform for Myanmar students
+            in their personal growth journey. It aims to become a social space where youths can socialize and make connections. Conversa also empowers
+            youths through learning, collaboration, and community engagement.
+          </p>
+          <p class="font-semibold text-md"></p>
+          <p class="font-semibold text-md"></p>
+        </div>
+      </div>
+      <div class="w-full bg-transparent">
+        <img class="" src="./image/attracting.png" alt="photo">
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="app.js"></script>
+</html>

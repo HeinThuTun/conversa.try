@@ -1,0 +1,21 @@
+<!-- Button to toggle the menu -->
+<button id="menu-button" class="bg-blue-500 text-white px-4 py-2 rounded-lg">
+  Menu
+</button>
+
+<!-- Dropdown menu -->
+<div id="dropdown-menu" class="hidden bg-white shadow-lg rounded-lg mt-2 w-48">
+  <a href="#home" class="block px-4 py-2 hover:bg-gray-100">Home</a>
+  <a href="#about" class="block px-4 py-2 hover:bg-gray-100">About Us</a>
+  <a href="#services" class="block px-4 py-2 hover:bg-gray-100">Services</a>
+  <a href="#contact" class="block px-4 py-2 hover:bg-gray-100">Contact</a>
+</div>
+
+<script>
+  const button = document.getElementById('menu-button');
+  const menu = document.getElementById('dropdown-menu');
+
+  button.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+</script>
